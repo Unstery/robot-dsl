@@ -1,0 +1,15 @@
+{
+    "projectName": "RobotDsl",
+    "languages": [{
+        "id": "robot-dsl",
+        "grammar": "src/language/robot-dsl.langium",
+        "fileExtensions": [".rob"],
+        "textMate": {
+            "out": "syntaxes/robot-dsl.tmLanguage.json"
+        },
+        "monarch": {
+            "out": "syntaxes/robot-dsl.monarch.ts"
+        }
+    }],
+    "out": "src/language/generated"
+}

@@ -1,0 +1,11 @@
+let void entry () {
+    setSpeed(200 mm) // distance per second (here 200mm/s)
+    var number time = getTime()
+    loop time < 60000
+    {
+        var number dist = getDistance()
+        Forward dist - 25 cm
+        Rotate 90
+        time = getTime()
+    }
+}
